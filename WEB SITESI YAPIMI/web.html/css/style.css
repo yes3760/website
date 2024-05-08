@@ -266,3 +266,46 @@ span{
 
 
 }
+
+#iletisim{
+     background:url("..//erdemli.jpg");
+     background-size: cover;
+     padding:50px;
+     height: auto;
+     text-align: center;
+}
+#h3iletisim{
+    color: white;
+}
+#iletisimopak{
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+
+}
+#sagform{
+    width: 50%;
+    float: left;
+
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color:#495057;
+background-color: white;
+}
