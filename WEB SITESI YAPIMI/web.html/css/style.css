@@ -267,45 +267,130 @@ span{
 
 }
 
-#iletisim{
-     background:url("..//erdemli.jpg");
-     background-size: cover;
-     padding:50px;
-     height: auto;
-     text-align: center;
-}
-#h3iletisim{
+/* iletisim styles */
+.iletisim {
+    background: url("../erdemli.jpg");
+    background-size: cover;
+    padding: var(--spacing-lg);
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* h3iletisim styles */
+  .h3iletisim {
     color: white;
-}
-#iletisimopak{
-    background: rgba(255,255,255,0.2);
-    padding: 30px;
+  }
+  
+  /* iletisim-opak styles */
+  .iletisim-opak {
+    background: rgba(255, 255, 255, 0.2);
+    padding: var(--spacing-md);
     border-radius: 5px;
-    margin-bottom: 50px;
+    margin-bottom: var(--spacing-lg);
     height: 550px;
-}
-#formgroup{
-    width: 700px;
+  }
+  
+  /* formgroup styles */
+  .formgroup {
+    width: var(--width-md);
     float: left;
     height: 500px;
     text-align: left;
-}
-
-#solform{
+  }
+  
+  /* solform and sagform styles */
+  .solform,.sagform {
     width: 50%;
     float: left;
-
-}
-#sagform{
-    width: 50%;
-    float: left;
-
-}
-.form-control{
+    padding: 5px;
+  }
+  
+  .solform {
+    padding-right: 5px;
+  }
+  
+  .sagform {
+    padding-left: 5px;
+  }
+  
+  /* form-control styles */
+  .form-control {
     width: 100%;
     padding: 10px;
     font-size: 15px;
     line-height: 1.5;
-    color:#495057;
-background-color: white;
-}
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  /* textarea styles */
+  textarea {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* input[type="submit"] styles */
+  input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* footer a styles */
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* h4 footer styles */
+  .h4footer {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  
+  /* adresp styles */
+  .adresp {
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  
+  /* copyright styles */
+  #copyright {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  
+  /* up styles */
+  #up {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
+  }
