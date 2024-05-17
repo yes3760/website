@@ -73,7 +73,7 @@ background-attachment: fixed;
 
 }
 #black{
-    height: 600px;
+    height: 700px;
   background-color: black;
   opacity: 0.5;
 
@@ -278,125 +278,135 @@ margin-top: 0;
     background-color: gray;
   }
 
-#iletisim{
-     background:url("..//erdemli.jpg");
-     background-size: cover;
-     padding:50px;
-     height: auto;
-     text-align: center;
-     height: 1400px;
-/* cover fotoğrafın tamamen pixeli kaplamasına yarıyor*/
-background-position:center ;
-background-attachment: fixed;
-/* sabit duran sayfa işini görür*/
+  #iletisim {
+    background: url("..//erdemli.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
 }
-#h3iletisim{
+
+#h3iletisim {
     color: white;
 }
-#iletisimopak{
-    background: rgba(255,255,255,0.2);
-    padding: 30px;
+
+#iletisimopak {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
     border-radius: 5px;
     margin-bottom: 50px;
-    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-#formgroup{
-    width: 500px;
-    float: left;
-    height: 500px;
+
+#formgroup {
+    width: 60%;
     text-align: left;
 }
 
-#solform{
-    width: 50%;
+#solform {
+    width: 48%;
     float: left;
     padding-right: 5px;
+}
 
-}
-#sagform{
-    width: 50%;
+#sagform {
+    width: 48%;
     float: left;
-    padding-left: 5px; 
+    padding-left: 5px;
 }
-.form-control{
+
+.form-control {
     width: 100%;
     padding: 10px;
     font-size: 15px;
     line-height: 1.5;
-    color:#495057;
-background-color: white;
-margin: 10px;
-border-radius: 5px;
-border:1px solid #ced4da;
+    color: #495057;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
 }
 
-textarea{
+textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     cursor: pointer;
     background-color: #445c6e;
-    font-size:18px ;
+    font-size: 18px;
     letter-spacing: 1px;
     padding: 10px 30px;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
-
 }
 
-#adres{
-
-    width: 750px;
-    float: right;
-    padding:30px ;
-    height: 1900px;
+#adres {
+    width: 35%;
     text-align: left;
-
 }
-#adresbaslik{
+
+#adresbaslik {
     font-size: 30px;
     color: white;
-
-   
-    
 }
-.adresp{
-    color:#ddd ;
+
+.adresp {
+    color: #ddd;
     font-size: 15px;
     letter-spacing: 1.5px;
-
-        
 }
-#copyright{
+
+#copyright {
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
     margin-bottom: 15px;
-
 }
-#up{
+
+#up {
     color: white;
-    border:1px solid white;
+    border: 1px solid white;
     border-radius: 50%;
     font-size: 15px;
-    padding: 9px 12 px;
+    padding: 9px 12px;
     margin-top: 20px;
-
+    font-size: 50px;
 }
-.footersection{
+
+.footersection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: #000000;
 }
-.footersection p{
+.fa-caret-up, .fa-circle-up {
+    font-size: 2em; /* Buradaki değeri isteğinize göre ayarlayabiliriz */
     color: white;
 }
+
+
+.footersection p {
+    color: black;
+}
+
 @media only screen and (max-width: 900px) {
-  .sanatcilar{
-    flex-direction: column;
-  }
+    #iletisimopak {
+        flex-direction: column;
+        align-items: center;
+    }
+    #formgroup, #adres {
+        width: 100%;
+        text-align: center;
+    }
+    #solform, #sagform {
+        width: 100%;
+        padding: 0;
+    }
 }
