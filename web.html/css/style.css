@@ -15,6 +15,7 @@ body {
 
 
 
+
 #menu{
        height: 80px;
        background-color:white;
@@ -377,6 +378,7 @@ input[type="submit"] {
     padding: 9px 12px;
     margin-top: 20px;
     font-size: 50px;
+    color: white;
 }
 
 .footersection {
@@ -386,11 +388,6 @@ input[type="submit"] {
     flex-direction: column;
     color: #000000;
 }
-.fa-caret-up, .fa-circle-up {
-    font-size: 2em; /* Buradaki değeri isteğinize göre ayarlayabiliriz */
-    color: white;
-}
-
 
 .footersection p {
     color: black;
